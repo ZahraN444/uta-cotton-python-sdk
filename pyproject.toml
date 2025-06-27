@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "uta-cotton-sdk"
 description = "Sed soluta reprehend"
-version = "4.4.6"
+version = "4.4.5"
 readme = "README.md"
 keywords = ["Adipis"]
 dependencies = ["apimatic-core~=0.2.0, >= 0.2.20", "apimatic-core-interfaces~=0.1.0, >= 0.1.5", "apimatic-requests-client-adapter~=0.1.0, >= 0.1.6"]
