@@ -19,6 +19,9 @@ The following parameters are configurable for the API Client:
 The API client can be initialized as follows:
 
 ```python
+from cypresstestapi.configuration import Environment
+from cypresstestapi.cypresstestapi_client import CypresstestapiClient
+
 client = CypresstestapiClient(
     environment=Environment.PRODUCTION,
     default_host='www.example.com'

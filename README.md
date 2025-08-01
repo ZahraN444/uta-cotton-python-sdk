@@ -11,11 +11,11 @@ The package is compatible with Python versions `3.7+`.
 Install the package from PyPi using the following pip command:
 
 ```bash
-pip install uta-cotton-sdk==4.4.5
+pip install uta-cotton-sdk==6.6.6
 ```
 
 You can also view the package at:
-https://pypi.python.org/pypi/uta-cotton-sdk/4.4.5
+https://pypi.python.org/pypi/uta-cotton-sdk/6.6.6
 
 ## Test the SDK
 
@@ -30,7 +30,7 @@ pytest
 
 ## Initialize the API Client
 
-**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/uta-cotton-python-sdk/tree/4.4.5/doc/client.md)
+**_Note:_** Documentation for the client can be found [here.](https://www.github.com/ZahraN444/uta-cotton-python-sdk/tree/6.6.6/doc/client.md)
 
 The following parameters are configurable for the API Client:
 
@@ -50,6 +50,9 @@ The following parameters are configurable for the API Client:
 The API client can be initialized as follows:
 
 ```python
+from cypresstestapi.configuration import Environment
+from cypresstestapi.cypresstestapi_client import CypresstestapiClient
+
 client = CypresstestapiClient(
     environment=Environment.PRODUCTION,
     default_host='www.example.com'
@@ -58,19 +61,19 @@ client = CypresstestapiClient(
 
 ## List of APIs
 
-* [API](https://www.github.com/ZahraN444/uta-cotton-python-sdk/tree/4.4.5/doc/controllers/api.md)
+* [API](https://www.github.com/ZahraN444/uta-cotton-python-sdk/tree/6.6.6/doc/controllers/api.md)
 
 ## SDK Infrastructure
 
 ### HTTP
 
-* [HttpResponse](https://www.github.com/ZahraN444/uta-cotton-python-sdk/tree/4.4.5/doc/http-response.md)
-* [HttpRequest](https://www.github.com/ZahraN444/uta-cotton-python-sdk/tree/4.4.5/doc/http-request.md)
+* [HttpResponse](https://www.github.com/ZahraN444/uta-cotton-python-sdk/tree/6.6.6/doc/http-response.md)
+* [HttpRequest](https://www.github.com/ZahraN444/uta-cotton-python-sdk/tree/6.6.6/doc/http-request.md)
 
 ### Utilities
 
-* [ApiHelper](https://www.github.com/ZahraN444/uta-cotton-python-sdk/tree/4.4.5/doc/api-helper.md)
-* [HttpDateTime](https://www.github.com/ZahraN444/uta-cotton-python-sdk/tree/4.4.5/doc/http-date-time.md)
-* [RFC3339DateTime](https://www.github.com/ZahraN444/uta-cotton-python-sdk/tree/4.4.5/doc/rfc3339-date-time.md)
-* [UnixDateTime](https://www.github.com/ZahraN444/uta-cotton-python-sdk/tree/4.4.5/doc/unix-date-time.md)
+* [ApiHelper](https://www.github.com/ZahraN444/uta-cotton-python-sdk/tree/6.6.6/doc/api-helper.md)
+* [HttpDateTime](https://www.github.com/ZahraN444/uta-cotton-python-sdk/tree/6.6.6/doc/http-date-time.md)
+* [RFC3339DateTime](https://www.github.com/ZahraN444/uta-cotton-python-sdk/tree/6.6.6/doc/rfc3339-date-time.md)
+* [UnixDateTime](https://www.github.com/ZahraN444/uta-cotton-python-sdk/tree/6.6.6/doc/unix-date-time.md)
 
