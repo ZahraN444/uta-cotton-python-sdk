@@ -3,11 +3,11 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "uta-cotton-sdk"
-description = "Sed soluta reprehend"
-version = "6.6.8"
+description = "Sed soluta reprehendtestttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt"
+version = "4.1.4"
 readme = "README.md"
-keywords = ["Adipis"]
-dependencies = ["apimatic-core~=0.2.0, >= 0.2.20", "apimatic-core-interfaces~=0.1.0, >= 0.1.5", "apimatic-requests-client-adapter~=0.1.0, >= 0.1.6"]
+keywords = ["Adipis", "test", "newww"]
+dependencies = ["apimatic-core~=0.2.0, >= 0.2.24", "apimatic-core-interfaces~=0.1.0, >= 0.1.8", "apimatic-requests-client-adapter~=0.1.0, >= 0.1.10", "python-dotenv>=0.21, <2.0"]
 classifiers = []
 requires-python = ">=3.7"
 [[project.authors]]
@@ -16,6 +16,7 @@ email = "hedih@mailinator.com"
 
 [project.urls]
 Documentation = "https://documentation.com"
+test = "https://documentations.com"
 [project.optional-dependencies]
 testutils = ["pytest>=7.2.2"]
 [tool]
