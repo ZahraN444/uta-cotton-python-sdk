@@ -1,8 +1,6 @@
 
 # Order
 
-*This model accepts additional fields of type Any.*
-
 ## Structure
 
 `Order`
@@ -15,9 +13,8 @@
 | `pet_id` | `int` | Optional | - |
 | `quantity` | `int` | Optional | - |
 | `ship_date` | `datetime` | Optional | - |
-| `status` | [`OrderStatus`](../../doc/models/order-status.md) | Optional | Order Status |
+| `status` | [`Status1Enum`](../../doc/models/status-1-enum.md) | Optional | - |
 | `complete` | `bool` | Optional | - |
-| `additional_properties` | `Dict[str, Any]` | Optional | - |
 
 ## Example (as JSON)
 
@@ -27,11 +24,7 @@
   "petId": 220,
   "quantity": 136,
   "shipDate": "2016-03-13T12:52:32.123Z",
-  "status": "placed",
-  "exampleAdditionalProperty": {
-    "key1": "val1",
-    "key2": "val2"
-  }
+  "status": "placed"
 }
 ```
 
